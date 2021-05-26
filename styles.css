@@ -1,0 +1,66 @@
+div {
+    border: 1px solid black;
+}
+
+img {
+    width: 200px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 25px solid blue;
+    margin: 13px;
+}
+
+.item {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.item1 {
+    border: 10px solid skyblue;
+
+}
+
+.item2 {
+    border: 10px dashed green;
+
+}
+
+.item3 {
+    border: 10px solid red;
+}
+
+.item4 {
+    border: 10px dashed pink;
+}
+
+.frame {
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.aboutMe {
+    color: yellow;
+    background-color: green;
+}
+
+.Shows {
+    color: blue;
+    background-color: red;
+}
+
+p:hover,
+h1:hover,
+a:hover {
+    background-color: pink;
+}
